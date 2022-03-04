@@ -1,0 +1,87 @@
+.blockUI {
+    z-index: 1011;
+    /* position: absolute; */
+    padding: 0px;
+    margin: 100px auto;
+    width: 637px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border: 1px;
+    background-color: rgb(255, 255, 255);
+    cursor: default;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+}
+
+.my-modal {
+    padding: 5px;
+    cursor: default;
+}
+
+.table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    border: 1px solid #000;
+}
+
+.table-container tr th {
+    text-align: left;
+    width: 100px;
+}
+
+.table>thead>tr>th,
+.table>tbody>tr>th,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>tbody>tr>td,
+.table>tfoot>tr>td {
+    border: 0;
+}
+
+.table tbody tr{
+    border-bottom: 1px solid #000;
+}
+
+.table tbody tr td{
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+.attribute {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    /* width: 628px; */
+    border: 1px solid #000;
+    border-bottom: 0;
+    border-right: 0;
+    margin-bottom: 30px;
+}
+
+.attr {
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+    text-align: left;
+}
+
+.attr,
+.attribute-txt {
+    width: 183px;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 10px;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+.attribute-txt {
+    width: 130px;
+}
+
+/* .attribute div:nth-child(8n){
+    border-right: 0;
+} */
